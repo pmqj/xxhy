@@ -1,0 +1,59 @@
+$themeRed: rgb(214, 57, 57);
+$themeOrange: rgb(247, 103, 7);
+$themeGreen: rgb(21, 180, 133);
+$bodyBgcColor: rgb(255, 254, 252);
+$boxBgcColor: white;
+$fontColor: rgb(95, 103, 116);
+$hoverColor: rgb(26, 86, 157);
+$lineColor: rgb(229, 231, 235);
+$maxBoxWidth: 1400px;
+$margin: 15px;
+$borderRadius: 5px;
+$imgBorderR: 10px;
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: #555555;
+}
+
+body,
+html {
+    font-size: 18px;
+    background-color: $bodyBgcColor;
+    border-top: 2px solid $themeOrange;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.fle-flex-d-c {
+    flex-direction: column;
+}
+
+.flex-j-c {
+    justify-content: center;
+}
+
+.flex-j-sa {
+    justify-content: space-around;
+}
+
+.flex-j-sb {
+    justify-content: space-between;
+}
+
+.flex-a-c {
+    align-items: center;
+}
+
+.gray {
+    color: $fontColor;
+}
